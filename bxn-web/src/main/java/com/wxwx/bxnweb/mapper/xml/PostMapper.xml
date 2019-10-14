@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wxwx.bxnweb.mapper.PostMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wxwx.bxnweb.entity.Post">
+        <id column="pid" property="pid" />
+        <result column="name" property="name" />
+        <result column="category" property="category" />
+        <result column="label" property="label" />
+        <result column="content" property="content" />
+        <result column="picpath" property="picpath" />
+        <result column="watchnum" property="watchnum" />
+        <result column="commentnum" property="commentnum" />
+        <result column="createtime" property="createtime" />
+        <result column="updatetime" property="updatetime" />
+    </resultMap>
+
+</mapper>
